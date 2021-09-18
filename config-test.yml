@@ -1,27 +1,2 @@
-<<<<<<< HEAD
 config:
-  info: "master branch,springcloud-config/config-test.yml version=3"
-=======
-server:
-  port: 3344
-
-spring:
-  application:
-    name: cloud-config-center #注册进Eureka服务器的微服务名
-  cloud:
-    config:
-      server:
-        git:
-          uri: git@github.com:octobergh/springcloud-config.git #GitHub上面的git仓库名字
-          ####搜索目录
-          search-paths:
-            - springcloud-config
-          default-label:
-          ####读取分支
-      label: master
-
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:7001/eureka
->>>>>>> 54c989b1326c08d9db171bf6933c3615ef15001e
+  info: "master branch,springcloud-config/config-test.yml version=1"
